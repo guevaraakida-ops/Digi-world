@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monopoly DApp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎲 Monopoly DApp</h1>
+    <button id="connectButton">Connect MetaMask</button>
+    <p id="walletAddress">Not connected</p>
+
+    <div id="game">
+      <button id="rollDice">Roll Dice</button>
+      <p id="diceResult"></p>
+    </div>
+
+    <div id="profits">
+      <button id="withdrawButton">Withdraw Profits</button>
+      <p id="profitStatus"></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
